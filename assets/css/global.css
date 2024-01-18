@@ -4,17 +4,27 @@
 }
 
 body {
-    background-color: #f6f8fc;
+    /* background-color: #d92525; */
+    background-image: url('../images/bg2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .content {
-    width: 100vw;
     height: 100vh;
+    width: 100vw;
     padding: 1rem;
-    background-color: #fff;
+    background-color: transparent;
 }
 
-@media screen and (min-width: 992px) {
+.content h1 {
+    color: #FFF;
+    text-shadow: 0 2px 4px black;
+    text-align: center;
+}
+
+@media screen and (min-width:992px) {
     .content {
         max-width: 992px;
         height: auto;
